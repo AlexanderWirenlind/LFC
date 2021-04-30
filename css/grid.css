@@ -1,15 +1,17 @@
-.container{
+.container {
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: 40px 40px 40px 40px auto;
 grid-gap: 3px;
 }
 
-header{
+header {
 grid-column: 2/3;
 grid-row: 1/2;
 }
 
-section{
-  grid-column
+section {
+  grid-column: ;
+  grid-row:
+
 }
