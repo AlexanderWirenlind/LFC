@@ -5,13 +5,12 @@ grid-template-rows: 40px 40px 40px 40px auto;
 grid-gap: 3px;
 }
 
-header {
+.container header {
 grid-column: 2/3;
 grid-row: 1/2;
 }
 
-section {
-  grid-column:  ;
-  grid-row:
-
+.container section {
+  grid-column: 2/3;
+  grid-row: 5/6;
 }
