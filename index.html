@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 
 <html lang="sv">
+<!-- inom elementet head så finns länkar till css grid och style dokument och -->
 
 <head>
-  <link rel="stylesheet" type="text/css" href="grid.css">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="utf-8">
   <title>Liverpool fan page </title>
 </head>
 
 <body>
-  <div class="container">
+  <div id="main" class="container">
     <header>
-      when was liverpool established?
+      What is Liverpoolfootballclub?
     </header>
+    <aside>
+      <img src="img/lol.jpeg" title="the kop by cchana" alt="this is a picture of Liverpoolfootballclub's logo" width="100%" height="100%">
+      <!-- detta är en bild av liverpool logan -->
+    </aside>
     <nav>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About us</a>
+        <a href="#">The squad</a>
+        <a href="#">Contacts</a>
+      </div>
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()">open</span>
+
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
     </nav>
     <section>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt rutrum diam, non vehicula metus pretium id. Quisque et gravida lorem, vel sodales eros. Maecenas vulputate tortor eu orci pharetra eleifend. Class aptent taciti
-      sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur et volutpat felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non urna nec lorem vestibulum cursus vitae eu
-      tortor. Curabitur finibus mi laoreet, dignissim justo eu, commodo tellus. Pellentesque ut nibh enim.
+      <h1> what Liverpoolfootballclub actually is... </h1>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis rutrum odio, luctus lacinia justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum metus eu tempor rutrum. Pellentesque efficitur tortor fringilla mauris
+      ultrices commodo. Curabitur leo erat, scelerisque at mauris eget, finibus dapibus purus. Phasellus sit amet nulla leo. Vestibulum efficitur condimentum odio, quis placerat arcu efficitur ac. Curabitur lacinia euismod ex, a blandit quam
+      venenatis quis. Pellentesque ultrices placerat dolor, a aliquam ante dictum sed. Nunc vitae est vel turpis pretium commodo. Nulla fringilla lectus vitae aliquet dapibus. Vestibulum consectetur ultrices nisi, fringilla tincidunt massa fringilla
+      ac. Morbi maximus rutrum lacus, non finibus sapien commodo et. Nam orci lorem, auctor at consectetur in, porta eget mauris. Pellentesque at lobortis nibh. Sed justo elit, cursus sed augue eu, mattis venenatis purus.
+      <h2> when was it established </h2>
+      Nunc consectetur dignissim enim a tempor. In venenatis luctus consequat. Aenean tristique ornare risus in fringilla. Praesent nec sagittis lorem. Nunc iaculis tortor nunc, nec condimentum sem porttitor ut. Nulla a feugiat nisi. Proin
+      pellentesque lectus in vulputate efficitur. Mauris consectetur quam vitae aliquet malesuada. Ut consectetur, leo at varius iaculis, quam leo imperdiet dui, vel elementum dolor libero et dui. Donec nec dolor massa. In hac habitasse platea
+      dictumst.
 
-      Sed tempor, eros ac gravida pellentesque, augue nisi dignissim ante, vitae dapibus eros tellus ac dolor. Curabitur suscipit ultrices lacinia. Donec faucibus non leo quis sodales. Donec blandit arcu id ante finibus, eget tincidunt lacus
-      imperdiet. Sed vel felis nec mauris condimentum semper sed nec eros. Nunc laoreet mi eget aliquam vestibulum. Cras faucibus eros quis ex pretium, nec mattis lectus placerat. Nullam pretium ac magna nec efficitur. Donec ultrices mattis metus,
-      a ornare justo elementum ut. Etiam hendrerit lacus et augue lobortis, vel molestie sapien suscipit. Suspendisse et mauris a tellus fermentum posuere.
-
-      In mattis blandit ligula, in egestas sem blandit vitae. Aliquam semper tempus orci sit amet tincidunt. Etiam ut sagittis sapien. Suspendisse semper elementum ultrices. Suspendisse venenatis ligula sit amet eleifend congue. Nunc rhoncus purus
-      et nunc facilisis, id pulvinar ante tempor. Curabitur aliquam ut est id pretium. Sed consectetur finibus posuere. Morbi et fringilla ex.
-
-      Sed a interdum enim. Suspendisse id pulvinar orci. Praesent ultricies, orci sit amet porta iaculis, mauris metus imperdiet turpis, sed congue mi orci non metus. In orci eros, elementum non ex vitae, efficitur laoreet ex. Fusce sagittis magna
-      at lectus ullamcorper, nec maximus magna dignissim. Nunc vestibulum nulla eget nibh congue imperdiet in quis ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus faucibus quam eu ligula
-      tristique ultrices. Nam ullamcorper ex vel diam viverra porta. Curabitur eu nulla purus. Ut cursus quam quis nunc blandit finibus.
-
-      Aliquam erat volutpat. Aliquam erat volutpat. Donec fringilla tincidunt odio id consequat. Mauris in augue tempor, condimentum sapien in, vulputate justo. Fusce auctor ultricies quam, tempor aliquam ex sodales sit amet. Cras in molestie
-      tellus. Nam faucibus nunc neque, vitae fringilla sem consequat quis. Donec sit amet erat ut dui gravida dignissim semper ultricies urna.
     </section>
+    <!-- denna texten står under bilden -->
     <footer>
-
+      <ul>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+      </ul>
     </footer>
 
   </div>
+
 </body>
 
 </html>
